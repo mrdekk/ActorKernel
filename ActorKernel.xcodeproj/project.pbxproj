@@ -12,7 +12,26 @@
 		94C702641FF6433100C719BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94C702621FF6433100C719BD /* Main.storyboard */; };
 		94C702661FF6433100C719BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94C702651FF6433100C719BD /* Assets.xcassets */; };
 		94C702691FF6433100C719BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94C702671FF6433100C719BD /* LaunchScreen.storyboard */; };
+		94C7027A1FF6438D00C719BD /* ActorKernel_iOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 94C702781FF6438D00C719BD /* ActorKernel_iOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		94C7027F1FF643A400C719BD /* BasicActor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C7027E1FF643A400C719BD /* BasicActor.swift */; };
+		94C702811FF6441F00C719BD /* ActorContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C702801FF6441F00C719BD /* ActorContainer.swift */; };
+		94C702851FF6490A00C719BD /* UIActor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C702841FF6490A00C719BD /* UIActor.swift */; };
+		94C702891FF6497000C719BD /* Actor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C702881FF6497000C719BD /* Actor.swift */; };
+		94F04F1A1FF64D21004DCC19 /* Actable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F04F191FF64D21004DCC19 /* Actable.swift */; };
+		94F04F1C1FF65007004DCC19 /* ActorErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F04F1B1FF65007004DCC19 /* ActorErrors.swift */; };
+		94F04F241FF65170004DCC19 /* ActorKernelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F04F231FF65170004DCC19 /* ActorKernelTests.swift */; };
+		94F04F2D1FF65190004DCC19 /* BasicActorScenariousTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F04F2C1FF65190004DCC19 /* BasicActorScenariousTests.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		94F04F261FF65170004DCC19 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 94C702531FF6433100C719BD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 94C7025A1FF6433100C719BD;
+			remoteInfo = ActorKernel;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		94C7025B1FF6433100C719BD /* ActorKernel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ActorKernel.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -22,10 +41,37 @@
 		94C702651FF6433100C719BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		94C702681FF6433100C719BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		94C7026A1FF6433100C719BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94C702761FF6438D00C719BD /* ActorKernel_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ActorKernel_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		94C702781FF6438D00C719BD /* ActorKernel_iOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ActorKernel_iOS.h; sourceTree = "<group>"; };
+		94C702791FF6438D00C719BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94C7027E1FF643A400C719BD /* BasicActor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicActor.swift; sourceTree = "<group>"; };
+		94C702801FF6441F00C719BD /* ActorContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActorContainer.swift; sourceTree = "<group>"; };
+		94C702841FF6490A00C719BD /* UIActor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIActor.swift; sourceTree = "<group>"; };
+		94C702881FF6497000C719BD /* Actor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Actor.swift; sourceTree = "<group>"; };
+		94F04F191FF64D21004DCC19 /* Actable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Actable.swift; sourceTree = "<group>"; };
+		94F04F1B1FF65007004DCC19 /* ActorErrors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActorErrors.swift; sourceTree = "<group>"; };
+		94F04F211FF65170004DCC19 /* ActorKernelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ActorKernelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		94F04F231FF65170004DCC19 /* ActorKernelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActorKernelTests.swift; sourceTree = "<group>"; };
+		94F04F251FF65170004DCC19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94F04F2C1FF65190004DCC19 /* BasicActorScenariousTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicActorScenariousTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		94C702581FF6433100C719BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94C702721FF6438D00C719BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94F04F1E1FF65170004DCC19 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -39,6 +85,8 @@
 			isa = PBXGroup;
 			children = (
 				94C7025D1FF6433100C719BD /* ActorKernel */,
+				94C702771FF6438D00C719BD /* ActorKernel-iOS */,
+				94F04F221FF65170004DCC19 /* ActorKernelTests */,
 				94C7025C1FF6433100C719BD /* Products */,
 			);
 			sourceTree = "<group>";
@@ -47,6 +95,8 @@
 			isa = PBXGroup;
 			children = (
 				94C7025B1FF6433100C719BD /* ActorKernel.app */,
+				94C702761FF6438D00C719BD /* ActorKernel_iOS.framework */,
+				94F04F211FF65170004DCC19 /* ActorKernelTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -54,6 +104,7 @@
 		94C7025D1FF6433100C719BD /* ActorKernel */ = {
 			isa = PBXGroup;
 			children = (
+				94C702701FF6437500C719BD /* Classes */,
 				94C7025E1FF6433100C719BD /* AppDelegate.swift */,
 				94C702601FF6433100C719BD /* ViewController.swift */,
 				94C702621FF6433100C719BD /* Main.storyboard */,
@@ -64,7 +115,58 @@
 			path = ActorKernel;
 			sourceTree = "<group>";
 		};
+		94C702701FF6437500C719BD /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				94C7027E1FF643A400C719BD /* BasicActor.swift */,
+				94C702801FF6441F00C719BD /* ActorContainer.swift */,
+				94C702841FF6490A00C719BD /* UIActor.swift */,
+				94C702881FF6497000C719BD /* Actor.swift */,
+				94F04F191FF64D21004DCC19 /* Actable.swift */,
+				94F04F1B1FF65007004DCC19 /* ActorErrors.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		94C702771FF6438D00C719BD /* ActorKernel-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				94C702781FF6438D00C719BD /* ActorKernel_iOS.h */,
+				94C702791FF6438D00C719BD /* Info.plist */,
+			);
+			path = "ActorKernel-iOS";
+			sourceTree = "<group>";
+		};
+		94F04F221FF65170004DCC19 /* ActorKernelTests */ = {
+			isa = PBXGroup;
+			children = (
+				94F04F2B1FF65182004DCC19 /* Basic */,
+				94F04F231FF65170004DCC19 /* ActorKernelTests.swift */,
+				94F04F251FF65170004DCC19 /* Info.plist */,
+			);
+			path = ActorKernelTests;
+			sourceTree = "<group>";
+		};
+		94F04F2B1FF65182004DCC19 /* Basic */ = {
+			isa = PBXGroup;
+			children = (
+				94F04F2C1FF65190004DCC19 /* BasicActorScenariousTests.swift */,
+			);
+			path = Basic;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		94C702731FF6438D00C719BD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94C7027A1FF6438D00C719BD /* ActorKernel_iOS.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		94C7025A1FF6433100C719BD /* ActorKernel */ = {
@@ -84,6 +186,42 @@
 			productReference = 94C7025B1FF6433100C719BD /* ActorKernel.app */;
 			productType = "com.apple.product-type.application";
 		};
+		94C702751FF6438D00C719BD /* ActorKernel-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94C7027B1FF6438D00C719BD /* Build configuration list for PBXNativeTarget "ActorKernel-iOS" */;
+			buildPhases = (
+				94C702711FF6438D00C719BD /* Sources */,
+				94C702721FF6438D00C719BD /* Frameworks */,
+				94C702731FF6438D00C719BD /* Headers */,
+				94C702741FF6438D00C719BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ActorKernel-iOS";
+			productName = "ActorKernel-iOS";
+			productReference = 94C702761FF6438D00C719BD /* ActorKernel_iOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		94F04F201FF65170004DCC19 /* ActorKernelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94F04F281FF65170004DCC19 /* Build configuration list for PBXNativeTarget "ActorKernelTests" */;
+			buildPhases = (
+				94F04F1D1FF65170004DCC19 /* Sources */,
+				94F04F1E1FF65170004DCC19 /* Frameworks */,
+				94F04F1F1FF65170004DCC19 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				94F04F271FF65170004DCC19 /* PBXTargetDependency */,
+			);
+			name = ActorKernelTests;
+			productName = ActorKernelTests;
+			productReference = 94F04F211FF65170004DCC19 /* ActorKernelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -97,6 +235,15 @@
 					94C7025A1FF6433100C719BD = {
 						CreatedOnToolsVersion = 9.1;
 						ProvisioningStyle = Automatic;
+					};
+					94C702751FF6438D00C719BD = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					94F04F201FF65170004DCC19 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 94C7025A1FF6433100C719BD;
 					};
 				};
 			};
@@ -114,6 +261,8 @@
 			projectRoot = "";
 			targets = (
 				94C7025A1FF6433100C719BD /* ActorKernel */,
+				94C702751FF6438D00C719BD /* ActorKernel-iOS */,
+				94F04F201FF65170004DCC19 /* ActorKernelTests */,
 			);
 		};
 /* End PBXProject section */
@@ -129,6 +278,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		94C702741FF6438D00C719BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94F04F1F1FF65170004DCC19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -136,12 +299,42 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94C7027F1FF643A400C719BD /* BasicActor.swift in Sources */,
+				94C702851FF6490A00C719BD /* UIActor.swift in Sources */,
+				94F04F1C1FF65007004DCC19 /* ActorErrors.swift in Sources */,
 				94C702611FF6433100C719BD /* ViewController.swift in Sources */,
+				94C702891FF6497000C719BD /* Actor.swift in Sources */,
 				94C7025F1FF6433100C719BD /* AppDelegate.swift in Sources */,
+				94F04F1A1FF64D21004DCC19 /* Actable.swift in Sources */,
+				94C702811FF6441F00C719BD /* ActorContainer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94C702711FF6438D00C719BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94F04F1D1FF65170004DCC19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94F04F2D1FF65190004DCC19 /* BasicActorScenariousTests.swift in Sources */,
+				94F04F241FF65170004DCC19 /* ActorKernelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		94F04F271FF65170004DCC19 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 94C7025A1FF6433100C719BD /* ActorKernel */;
+			targetProxy = 94F04F261FF65170004DCC19 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		94C702621FF6433100C719BD /* Main.storyboard */ = {
@@ -300,6 +493,86 @@
 			};
 			name = Release;
 		};
+		94C7027C1FF6438D00C719BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = U4UTNV8D5K;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "ActorKernel-iOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ru.mrdekk.ActorKernel-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		94C7027D1FF6438D00C719BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = U4UTNV8D5K;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "ActorKernel-iOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ru.mrdekk.ActorKernel-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		94F04F291FF65170004DCC19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U4UTNV8D5K;
+				INFOPLIST_FILE = ActorKernelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ru.mrdekk.ActorKernelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ActorKernel.app/ActorKernel";
+			};
+			name = Debug;
+		};
+		94F04F2A1FF65170004DCC19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U4UTNV8D5K;
+				INFOPLIST_FILE = ActorKernelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ru.mrdekk.ActorKernelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ActorKernel.app/ActorKernel";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -317,6 +590,24 @@
 			buildConfigurations = (
 				94C7026E1FF6433100C719BD /* Debug */,
 				94C7026F1FF6433100C719BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94C7027B1FF6438D00C719BD /* Build configuration list for PBXNativeTarget "ActorKernel-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94C7027C1FF6438D00C719BD /* Debug */,
+				94C7027D1FF6438D00C719BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94F04F281FF65170004DCC19 /* Build configuration list for PBXNativeTarget "ActorKernelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94F04F291FF65170004DCC19 /* Debug */,
+				94F04F2A1FF65170004DCC19 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
