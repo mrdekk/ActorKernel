@@ -24,9 +24,18 @@ open class ActorContainer {
             queue = DispatchQueue(label: "Actor.Queue.\(name ?? "-")")
         }
 
-        // NOTE: here just if singleton
-        if let cached = refs[typeName] {
-            return cached
+        let actorAddress: String
+
+        switch type {
+        case is PrototypeActor.Type:
+            actorAddress = [typeName, "_", UUID().uuidString].joined()
+            break
+
+        default:
+            actorAddress = typeName
+            if let cached = refs[actorAddress] {
+                return cached
+            }
         }
 
         let instance = type.init(
@@ -34,7 +43,7 @@ open class ActorContainer {
             name: name,
             queue: queue
         )
-        refs[typeName] = instance
+        refs[actorAddress] = instance
 
         return instance
     }

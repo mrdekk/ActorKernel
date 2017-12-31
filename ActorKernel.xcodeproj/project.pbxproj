@@ -15,7 +15,6 @@
 		94C7027A1FF6438D00C719BD /* ActorKernel_iOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 94C702781FF6438D00C719BD /* ActorKernel_iOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		94C7027F1FF643A400C719BD /* BasicActor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C7027E1FF643A400C719BD /* BasicActor.swift */; };
 		94C702811FF6441F00C719BD /* ActorContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C702801FF6441F00C719BD /* ActorContainer.swift */; };
-		94C702851FF6490A00C719BD /* UIActor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C702841FF6490A00C719BD /* UIActor.swift */; };
 		94C702891FF6497000C719BD /* Actor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C702881FF6497000C719BD /* Actor.swift */; };
 		94F04F1A1FF64D21004DCC19 /* Actable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F04F191FF64D21004DCC19 /* Actable.swift */; };
 		94F04F1C1FF65007004DCC19 /* ActorErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F04F1B1FF65007004DCC19 /* ActorErrors.swift */; };
@@ -23,10 +22,10 @@
 		94F04F2D1FF65190004DCC19 /* BasicActorScenariousTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F04F2C1FF65190004DCC19 /* BasicActorScenariousTests.swift */; };
 		94F04F2E1FF65B57004DCC19 /* BasicActor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C7027E1FF643A400C719BD /* BasicActor.swift */; };
 		94F04F2F1FF65B5A004DCC19 /* ActorContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C702801FF6441F00C719BD /* ActorContainer.swift */; };
-		94F04F301FF65B5C004DCC19 /* UIActor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C702841FF6490A00C719BD /* UIActor.swift */; };
 		94F04F311FF65B5E004DCC19 /* Actor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C702881FF6497000C719BD /* Actor.swift */; };
 		94F04F321FF65B61004DCC19 /* Actable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F04F191FF64D21004DCC19 /* Actable.swift */; };
 		94F04F331FF65B64004DCC19 /* ActorErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F04F1B1FF65007004DCC19 /* ActorErrors.swift */; };
+		94F04F3A1FF8ED9A004DCC19 /* ActorSpecialTypesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F04F391FF8ED9A004DCC19 /* ActorSpecialTypesTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,7 +51,6 @@
 		94C702791FF6438D00C719BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		94C7027E1FF643A400C719BD /* BasicActor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicActor.swift; sourceTree = "<group>"; };
 		94C702801FF6441F00C719BD /* ActorContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActorContainer.swift; sourceTree = "<group>"; };
-		94C702841FF6490A00C719BD /* UIActor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIActor.swift; sourceTree = "<group>"; };
 		94C702881FF6497000C719BD /* Actor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Actor.swift; sourceTree = "<group>"; };
 		94F04F191FF64D21004DCC19 /* Actable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Actable.swift; sourceTree = "<group>"; };
 		94F04F1B1FF65007004DCC19 /* ActorErrors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActorErrors.swift; sourceTree = "<group>"; };
@@ -60,6 +58,7 @@
 		94F04F231FF65170004DCC19 /* ActorKernelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActorKernelTests.swift; sourceTree = "<group>"; };
 		94F04F251FF65170004DCC19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		94F04F2C1FF65190004DCC19 /* BasicActorScenariousTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicActorScenariousTests.swift; sourceTree = "<group>"; };
+		94F04F391FF8ED9A004DCC19 /* ActorSpecialTypesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActorSpecialTypesTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,7 +125,6 @@
 			children = (
 				94C7027E1FF643A400C719BD /* BasicActor.swift */,
 				94C702801FF6441F00C719BD /* ActorContainer.swift */,
-				94C702841FF6490A00C719BD /* UIActor.swift */,
 				94C702881FF6497000C719BD /* Actor.swift */,
 				94F04F191FF64D21004DCC19 /* Actable.swift */,
 				94F04F1B1FF65007004DCC19 /* ActorErrors.swift */,
@@ -157,6 +155,7 @@
 			isa = PBXGroup;
 			children = (
 				94F04F2C1FF65190004DCC19 /* BasicActorScenariousTests.swift */,
+				94F04F391FF8ED9A004DCC19 /* ActorSpecialTypesTests.swift */,
 			);
 			path = Basic;
 			sourceTree = "<group>";
@@ -306,7 +305,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				94C7027F1FF643A400C719BD /* BasicActor.swift in Sources */,
-				94C702851FF6490A00C719BD /* UIActor.swift in Sources */,
 				94F04F1C1FF65007004DCC19 /* ActorErrors.swift in Sources */,
 				94C702611FF6433100C719BD /* ViewController.swift in Sources */,
 				94C702891FF6497000C719BD /* Actor.swift in Sources */,
@@ -320,7 +318,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				94F04F301FF65B5C004DCC19 /* UIActor.swift in Sources */,
 				94F04F2E1FF65B57004DCC19 /* BasicActor.swift in Sources */,
 				94F04F321FF65B61004DCC19 /* Actable.swift in Sources */,
 				94F04F2F1FF65B5A004DCC19 /* ActorContainer.swift in Sources */,
@@ -333,6 +330,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94F04F3A1FF8ED9A004DCC19 /* ActorSpecialTypesTests.swift in Sources */,
 				94F04F2D1FF65190004DCC19 /* BasicActorScenariousTests.swift in Sources */,
 				94F04F241FF65170004DCC19 /* ActorKernelTests.swift in Sources */,
 			);

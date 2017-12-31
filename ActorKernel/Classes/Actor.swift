@@ -8,7 +8,7 @@
 
 import Foundation
 
-public protocol Actor : Actable {
+public protocol Actor : class, Actable {
     init(in container: ActorContainer, name: String?, queue: DispatchQueue)
 
     func tell(_ message: Any, sender: Actable?)

@@ -8,25 +8,19 @@
 
 import Foundation
 
-// TODO: policy: singleton or prototype
+protocol UIActor : class { }
+protocol PrototypeActor : class { }
 
 open class BasicActor : Actor, CustomStringConvertible {
 
     private let name: String
     private let container: ActorContainer
     private let queue: DispatchQueue
-    
-    private var mailbox: [Any] = []
-
-    // private var busy: Bool
 
     required public init(in container: ActorContainer, name: String? = nil, queue: DispatchQueue) {
         self.name = name ?? String(format: "Actor-%d-%f", arc4random(), Date().timeIntervalSince1970)
         self.container = container
         self.queue = queue
-
-        // busy = false
-        self.mailbox = []
     }
 
     open func unhandled(_ message: Any, sender: Actable?) {
