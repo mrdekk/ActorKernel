@@ -12,7 +12,7 @@ open class ActorContainer {
 
     private var refs: [String: Actor] = [:]
 
-    open func actor<T: AnyObject & Actor>(for type: T.Type, name: String? = nil) -> Actor {
+    open func actor<T: Actor>(for type: T.Type, name: String? = nil) -> Actor {
         let typeName = NSStringFromClass(T.self)
 
         let queue: DispatchQueue
